@@ -1,0 +1,14 @@
+{
+  "name": "screenshot-api",
+  "version": "1.0.0",
+  "description": "API for taking screenshots using Puppeteer",
+  "main": "screenshot.js",
+  "scripts": {
+    "start": "node screenshot.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "puppeteer": "^19.1.0"
+  }
+}
+

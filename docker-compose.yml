@@ -1,0 +1,10 @@
+version: '3.8'
+
+services:
+  screenshot-api:
+    build: .
+    ports:
+      - "5601:5601"
+    environment:
+      - PORT=5601
+    image: "fikridulumina/web-screenshot:latest"
